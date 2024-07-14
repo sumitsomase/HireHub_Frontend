@@ -4,10 +4,10 @@
     "slug": "HireHub",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/Hireh.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/hirehub.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,21 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/Hireh.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.sumitsomase.HireHub"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/Hireh.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a2119bef-ffcc-4fd1-9f3e-6ed52cad7222"
+      }
+    },
+    "plugins": [
+      "expo-secure-store"
+    ]
   }
 }
